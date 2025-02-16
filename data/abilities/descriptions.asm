@@ -155,6 +155,8 @@ AbilityDescriptions:
 	dw SharpnessDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
+	dw AerilateDescription
+	dw TriageDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -915,3 +917,12 @@ MindsEyeDescription:
 	text "Bypass evasion and"
 	next "Ghost immunity."
 	done
+
+AerilateDescription:
+	text "Normal-type moves"
+	next "become Flying."
+	done
+
+TriageDescription:
+	db    "Healing moves"
+	next1 "have priority."
