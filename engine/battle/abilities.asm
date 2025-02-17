@@ -1645,6 +1645,7 @@ OffensiveDamageAbilities:
 	dbw GUTS, GutsAbility
 	dbw PIXILATE, PixilateAbility
 	dbw GALVANIZE, GalvanizeAbility
+	dbw AERILATE, AerilateAbility
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
@@ -1856,6 +1857,8 @@ PixilateAbility:
 	jr AteAbilities
 GalvanizeAbility:
 	ld b, ELECTRIC
+AerilateAbility:
+	ld b, FLYING
 AteAbilities:
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVarAddr
