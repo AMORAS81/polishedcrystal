@@ -7,7 +7,11 @@
 	db ALWAYS_ITEM_2, LEFTOVERS ; held items
 	dn GENDER_F12_5, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
+if DEF(FAITHFUL)
+	abilities_for SNORLAX, IMMUNITY, THICK_FAT, GLUTTONY
+else
 	abilities_for SNORLAX, FUR_COAT, THICK_FAT, GLUTTONY
+endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 
