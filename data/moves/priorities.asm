@@ -18,3 +18,18 @@ MovePriorities:
 	db TELEPORT,     -6
 	db TRICK_ROOM,   -7
 	db -1
+
+TriageMoves:
+; used by Triage
+	db ABSORB
+	db MEGA_DRAIN
+	db GIGA_DRAIN
+	db REST
+	db DREAM_EATER
+	db DRAIN_PUNCH
+	db DRAINING_KISS
+	db HEALINGLIGHT
+	db RECOVER
+	db FRESH_SNACK
+	db ROOST
+	db -1
