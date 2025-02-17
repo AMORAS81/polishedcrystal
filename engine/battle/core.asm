@@ -637,17 +637,33 @@ GetMovePriority:
 	jr z, .got_priority
 	inc hl
 	ld a, [hl]
-.got_priority
+.check_prankster
 	xor $80 ; treat it as a signed byte
 	ld b, a
-	call GetTrueUserAbility
+	ld a, BATTLE_VARS_ABILITY
+	call GetBattleVar
 	cp PRANKSTER
-	jr nz, .no_priority
+	jr nz, .check_triage
 	ld a, BATTLE_VARS_MOVE_CATEGORY
 	call GetBattleVar
 	cp STATUS
 	jr nz, .no_priority
 	inc b
+	ld hl, PranksterText
+	call StdBattleTextBox
+	jr .no_priority
+.check_triage
+	cp TRIAGE
+	jr nz, .no_priority
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVar
+	ld de, 1
+	ld hl, TriageMoves
+	call IsInArray
+	jr nc, .no_priority
+	inc b
+	ld hl, TriageText
+	call StdBattleTextBox
 .no_priority
 	ld a, b
 	pop de
