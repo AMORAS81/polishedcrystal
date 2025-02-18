@@ -1,11 +1,7 @@
 	db  79,  83, 100,  78,  85, 105 ; 530 BST
 	;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
 	db WATER, WATER ; type
-else
-	db WATER, STEEL ; type
-endc
 	db 45 ; catch rate
 	db 210 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
