@@ -1305,13 +1305,14 @@ GrowlithePlainEvosAttacks:
 
 ArcaninePlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, DRAGON_DANCE ; new move
+	db 1, BULK_UP ; new move
 	db 1, GROWL
 	db 1, BITE
 	db 1, ROAR
 	db 1, FLAME_CHARGE
 	db 1, TAKE_DOWN
 	db 1, EXTREMESPEED ; evolution move
+	db 60, SACRED_FIRE ; new move
 	db -1 ; no more level-up moves
 
 GrowlitheHisuianEvosAttacks:
@@ -1348,6 +1349,7 @@ ArcanineHisuianEvosAttacks:
 	db 1, FLAME_CHARGE
 	db 1, TAKE_DOWN
 	db 1, EXTREMESPEED ; evolution move
+	db 60, SACRED_FIRE ; new move
 	db -1 ; no more level-up moves
 
 PoliwagEvosAttacks:
