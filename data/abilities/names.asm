@@ -157,6 +157,7 @@ AbilityNames:
 	dw MindsEye
 	dw Aerilate
 	dw Triage
+	dw Fluffy
 	assert_table_length NUM_ABILITIES
 
 NoAbility:       rawchar "---@"
@@ -316,3 +317,4 @@ ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"
 Aerilate:        rawchar "Aerilate@"
 Triage:          rawchar "Triage@"
+Fluffy:          rawchar "Fluffy@"
