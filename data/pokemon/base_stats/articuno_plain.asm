@@ -7,11 +7,8 @@
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for ARTICUNO, PRESSURE, PRESSURE, SNOW_CLOAK
-else
 	abilities_for ARTICUNO, PRESSURE, SNOW_WARNING, SNOW_CLOAK
-endc
+
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
