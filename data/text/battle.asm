@@ -2160,3 +2160,9 @@ LawrenceFinalPkmnText:
 ReiFinalPkmnText:
 	text "I'm not done yet."
 	prompt
+
+TriageText:
+	text "<USER>'s"
+	line "TRIAGE let it"
+	cont "move first!"
+	prompt
