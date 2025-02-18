@@ -8,7 +8,6 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for ANNIHILAPE, GORILLA_TACTICS, INNER_FOCUS, DEFIANT
-
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
