@@ -924,5 +924,11 @@ AerilateDescription:
 	done
 
 TriageDescription:
-	db    "Healing moves"
-	next1 "have priority."
+	text "Healing moves"
+	next "have priority."
+	done
+
+FluffyDescription:
+	text "Weakens contact da-"
+	next "mage, doubles fire."
+	done
