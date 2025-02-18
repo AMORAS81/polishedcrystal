@@ -7,11 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for BAYLEEF, OVERGROW, OVERGROW, LEAF_GUARD
-else
-	abilities_for BAYLEEF, OVERGROW, NATURAL_CURE, LEAF_GUARD
-endc
+	abilities_for BAYLEEF, OVERGROW, TRIAGE, LEAF_GUARD
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_PLANT ; egg groups
 
