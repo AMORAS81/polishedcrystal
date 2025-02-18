@@ -1,22 +1,14 @@
-if DEF(FAITHFUL)
 	db  70,  90,  70,  40,  60,  70 ; 400 BST
 	;   hp  atk  def  spe  sat  sdf
-else
-	db  70,  90,  70,  80,  60,  70 ; 440 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
 
-if DEF(FAITHFUL)
 	db BUG, POISON ; type
-else
-	db BUG, DARK ; type
-endc
+
 	db 90 ; catch rate
 	db 134 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ARIADOS, SWARM, INSOMNIA, SNIPER
+	abilities_for ARIADOS, SWARM, PRANKSTER, SNIPER
 	db GROWTH_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
