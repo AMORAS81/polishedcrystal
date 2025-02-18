@@ -16,7 +16,7 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ARIADOS, SWARM, INSOMNIA, SNIPER
+	abilities_for ARIADOS, SWARM, PRANKSTER, SNIPER
 	db GROWTH_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
