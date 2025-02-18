@@ -158,4 +158,7 @@
 	const SHARPNESS
 	const ARMOR_TAIL
 	const MINDS_EYE
+	const AERILATE
+	const TRIAGE
+	const FLUFFY
 DEF NUM_ABILITIES EQU const_value
