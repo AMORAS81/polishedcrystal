@@ -4,7 +4,6 @@
 	db ELECTRIC, ELECTRIC ; type
 	db 45 ; catch rate
 	db 194 ; base exp
-
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
