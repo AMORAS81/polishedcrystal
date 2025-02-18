@@ -157,6 +157,7 @@ AbilityDescriptions:
 	dw MindsEyeDescription
 	dw AerilateDescription
 	dw TriageDescription
+	dw FluffyDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
