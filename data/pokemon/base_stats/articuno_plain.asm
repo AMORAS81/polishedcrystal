@@ -8,7 +8,6 @@
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 	abilities_for ARTICUNO, PRESSURE, SNOW_WARNING, SNOW_CLOAK
-
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
