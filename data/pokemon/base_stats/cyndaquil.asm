@@ -8,7 +8,7 @@
 	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CYNDAQUIL, BLAZE, BLAZE, FLASH_FIRE
+	abilities_for CYNDAQUIL, BLAZE, ADAPTABILITY, FLASH_FIRE
 else
 	abilities_for CYNDAQUIL, BLAZE, FLAME_BODY, FLASH_FIRE
 endc
