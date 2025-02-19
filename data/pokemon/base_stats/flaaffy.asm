@@ -18,7 +18,7 @@ endc
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for FLAAFFY, STATIC, STATIC, STATIC
+	abilities_for FLAAFFY, STATIC, STATIC, MOLD_BREAKER
 else
 	abilities_for FLAAFFY, STATIC, STATIC, MOTOR_DRIVE
 endc
