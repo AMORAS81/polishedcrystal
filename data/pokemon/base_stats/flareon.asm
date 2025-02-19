@@ -8,7 +8,7 @@
 	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for FLAREON, FLASH_FIRE, FLASH_FIRE, GUTS
+	abilities_for FLAREON, FLASH_FIRE, FLUFFY, GUTS
 else
 	abilities_for FLAREON, FLASH_FIRE, DROUGHT, GUTS
 endc
