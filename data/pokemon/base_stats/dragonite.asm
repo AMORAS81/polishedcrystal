@@ -8,7 +8,7 @@
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for DRAGONITE, INNER_FOCUS, INNER_FOCUS, MULTISCALE
+	abilities_for DRAGONITE, INNER_FOCUS, MARVEL_SCALE, MULTISCALE
 else
 	abilities_for DRAGONITE, INNER_FOCUS, MARVEL_SCALE, MULTISCALE
 endc
