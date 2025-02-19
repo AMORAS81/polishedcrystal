@@ -8,7 +8,7 @@
 	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CHIKORITA, OVERGROW, OVERGROW, LEAF_GUARD
+	abilities_for CHIKORITA, OVERGROW, TRIAGE, LEAF_GUARD
 else
 	abilities_for CHIKORITA, OVERGROW, NATURAL_CURE, LEAF_GUARD
 endc
