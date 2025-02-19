@@ -12,7 +12,7 @@ endc
 	db NO_ITEM, LEEK ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for FARFETCH_D, KEEN_EYE, INNER_FOCUS, DEFIANT
+	abilities_for FARFETCH_D, QUICK_DRAW, INNER_FOCUS, DEFIANT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_GROUND ; egg groups
 
