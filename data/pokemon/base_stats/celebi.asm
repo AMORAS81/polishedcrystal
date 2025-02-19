@@ -12,7 +12,7 @@ endc
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CELEBI, NATURAL_CURE, NATURAL_CURE, NATURAL_CURE
+	abilities_for CELEBI, NATURAL_CURE, NATURAL_CURE, MAGIC_GUARD
 else
 	abilities_for CELEBI, NATURAL_CURE, NATURAL_CURE, MAGIC_GUARD
 endc
