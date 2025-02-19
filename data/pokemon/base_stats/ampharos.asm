@@ -18,7 +18,7 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for AMPHAROS, STATIC, STATIC, MOLD_BREAKER
+	abilities_for AMPHAROS, STATIC, ILLUMINATE, MOLD_BREAKER
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
