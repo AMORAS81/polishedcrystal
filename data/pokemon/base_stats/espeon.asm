@@ -8,7 +8,7 @@
 	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for ESPEON, SYNCHRONIZE, SYNCHRONIZE, MAGIC_BOUNCE
+	abilities_for ESPEON, SYNCHRONIZE, MAGIC_GUARD, MAGIC_BOUNCE
 else
 	abilities_for ESPEON, SYNCHRONIZE, MAGIC_GUARD, MAGIC_BOUNCE
 endc
