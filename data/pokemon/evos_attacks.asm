@@ -1305,13 +1305,14 @@ GrowlithePlainEvosAttacks:
 
 ArcaninePlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, DRAGON_DANCE ; new move
+	db 1, BULK_UP ; new move
 	db 1, GROWL
 	db 1, BITE
 	db 1, ROAR
 	db 1, FLAME_CHARGE
 	db 1, TAKE_DOWN
 	db 1, EXTREMESPEED ; evolution move
+	db 60, SACRED_FIRE
 	db -1 ; no more level-up moves
 
 GrowlitheHisuianEvosAttacks:
@@ -1348,6 +1349,7 @@ ArcanineHisuianEvosAttacks:
 	db 1, FLAME_CHARGE
 	db 1, TAKE_DOWN
 	db 1, EXTREMESPEED ; evolution move
+	db 60, SACRED_FIRE
 	db -1 ; no more level-up moves
 
 PoliwagEvosAttacks:
@@ -4199,6 +4201,7 @@ MareepEvosAttacks:
 	db 18, HEAL_BELL ; Take Down → HGSS tutor move
 	db 22, TAKE_DOWN ; Electro Ball → Take Down
 	db 25, CONFUSE_RAY
+	db 27, FRESH_SNACK ;  new move
 	db 29, POWER_GEM
 	db 32, THUNDERBOLT ; Discharge → TM move
 	db 36, SAFEGUARD ; Cotton Guard → egg move
@@ -4223,6 +4226,7 @@ endc
 	db 20, HEAL_BELL ; Take Down → HGSS tutor move
 	db 25, TAKE_DOWN ; Electro Ball → Take Down
 	db 29, CONFUSE_RAY
+	db 32, FRESH_SNACK ;  new move
 	db 34, POWER_GEM
 	db 38, THUNDERBOLT ; Discharge → TM move
 	db 43, SAFEGUARD ; Cotton Guard → egg move
@@ -4245,6 +4249,7 @@ AmpharosEvosAttacks:
 	db 20, HEAL_BELL ; Take Down → HGSS tutor move
 	db 25, TAKE_DOWN ; Electro Ball → Take Down
 	db 29, CONFUSE_RAY
+	db 32, FRESH_SNACK ;  new move
 	db 35, POWER_GEM
 	db 40, THUNDERBOLT ; Discharge → TM move
 	db 46, SAFEGUARD ; Cotton Guard → egg move
