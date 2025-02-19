@@ -8,7 +8,7 @@
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for ENTEI, PRESSURE, PRESSURE, INNER_FOCUS
+	abilities_for ENTEI, PRESSURE, INNER_FOCUS, FLASH_FIRE
 else
 	abilities_for ENTEI, PRESSURE, INNER_FOCUS, FLASH_FIRE
 endc
