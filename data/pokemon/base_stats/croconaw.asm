@@ -8,7 +8,7 @@
 	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CROCONAW, TORRENT, TORRENT, SHEER_FORCE
+	abilities_for CROCONAW, TORRENT, GUTS, SHEER_FORCE
 else
 	abilities_for CROCONAW, TORRENT, GUTS, SHEER_FORCE
 endc
