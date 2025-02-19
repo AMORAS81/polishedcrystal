@@ -8,7 +8,7 @@
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CROBAT, INNER_FOCUS, INNER_FOCUS, INFILTRATOR
+	abilities_for CROBAT, INNER_FOCUS, AERILATE, INFILTRATOR
 else
 	abilities_for CROBAT, INNER_FOCUS, ANTICIPATION, INFILTRATOR
 endc
