@@ -1649,6 +1649,7 @@ GravelerPlainEvosAttacks:
 
 GolemPlainEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, GYRO_BALL ; Heavy Slam → similar move
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
 	db 4, MUD_SLAP ; Mud Sport → TM move
@@ -1665,7 +1666,7 @@ GolemPlainEvosAttacks:
 	db 44, EXPLOSION
 	db 50, DOUBLE_EDGE
 	db 54, STONE_EDGE
-	db 60, GYRO_BALL ; Heavy Slam → similar move
+	db 60, SHELL_SMASH
 	db -1 ; no more level-up moves
 
 GeodudeAlolanEvosAttacks:
@@ -1712,6 +1713,7 @@ GravelerAlolanEvosAttacks:
 
 GolemAlolanEvosAttacks:
 	db -1 ; no more evolutions
+	db 1, GYRO_BALL ; Heavy Slam → similar move
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
 	db 4, THUNDERSHOCK ; Charge → new move
@@ -1728,7 +1730,7 @@ GolemAlolanEvosAttacks:
 	db 44, EXPLOSION
 	db 50, DOUBLE_EDGE
 	db 54, STONE_EDGE
-	db 60, GYRO_BALL ; Heavy Slam → similar move
+	db 60, SHELL_SMASH
 	db -1 ; no more level-up moves
 
 PonytaPlainEvosAttacks:
