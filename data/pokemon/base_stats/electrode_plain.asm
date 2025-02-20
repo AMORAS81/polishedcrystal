@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ELECTRODE, SOUNDPROOF, STATIC, AFTERMATH
+	abilities_for ELECTRODE, GALVANIZE, STATIC, AFTERMATH
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
