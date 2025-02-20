@@ -3855,7 +3855,7 @@ SentretEvosAttacks:
 	db 31, SUCKER_PUNCH
 	db 36, AMNESIA
 	db 39, BATON_PASS
-	db 42, SLASH ; Me First → egg move
+	db 42, DOUBLE_EDGE ; Me First → egg move
 	db 47, HYPER_VOICE
 	db -1 ; no more level-up moves
 
@@ -3874,8 +3874,9 @@ FurretEvosAttacks:
 	db 36, SUCKER_PUNCH
 	db 42, AMNESIA
 	db 46, BATON_PASS
-	db 50, SLASH ; Me First → egg move
+	db 50, DOUBLE_EDGE ; Me First → egg move
 	db 56, HYPER_VOICE
+	db 59, EXTREMESPEED
 	db -1 ; no more level-up moves
 
 HoothootEvosAttacks:
@@ -4806,16 +4807,16 @@ GligarEvosAttacks:
 	db 1, POISON_STING
 	db 4, MUD_SLAP ; Sand Attack → similar move
 	db 7, DEFENSE_CURL ; Harden → similar move
-	db 10, QUICK_ATTACK ; Knock Off → Quick Attack
-	db 13, WING_ATTACK ; Quick Attack → egg move
-	db 16, BUG_BITE ; Fury Cutter → similar move
+	db 10, KNOCK_OFF; Knock Off → Quick Attack
+	db 13, QUICK_ATTACK ; Quick Attack → egg move
+	db 16, WING_ATTACK ; Fury Cutter → similar move
 	db 19, FEINT_ATTACK
 	db 22, ACROBATICS
 	db 27, SLASH
 	db 30, U_TURN
 	db 35, SCREECH
 	db 40, X_SCISSOR
-	db 45, KNOCK_OFF ; Sky Uppercut → Knock Off
+	db 45, CRABHAMMER ; Sky Uppercut → Knock Off
 	db 50, SWORDS_DANCE
 	db 55, NIGHT_SLASH ; Guillotine → egg move
 	db -1 ; no more level-up moves
@@ -4825,16 +4826,16 @@ GliscorEvosAttacks:
 	db 1, POISON_JAB
 	db 4, MUD_SLAP ; Sand Attack → similar move
 	db 7, DEFENSE_CURL ; Harden → similar move
-	db 10, QUICK_ATTACK ; Knock Off → Quick Attack
-	db 13, WING_ATTACK ; Quick Attack → egg move
-	db 16, BUG_BITE ; Fury Cutter → similar move
+	db 10, KNOCK_OFF; Knock Off → Quick Attack
+	db 13, QUICK_ATTACK ; Quick Attack → egg move
+	db 16, WING_ATTACK ; Fury Cutter → similar move
 	db 19, FEINT_ATTACK
 	db 22, ACROBATICS
 	db 27, SLASH ; Night Slash → Gligar move
 	db 30, U_TURN
 	db 35, SCREECH
 	db 40, X_SCISSOR
-	db 45, KNOCK_OFF ; Sky Uppercut → Knock Off
+	db 45, CRABHAMMER ; Sky Uppercut → Knock Off
 	db 50, SWORDS_DANCE
 	db 55, NIGHT_SLASH ; Guillotine → Night Slash
 	db -1 ; no more level-up moves
