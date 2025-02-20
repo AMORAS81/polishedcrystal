@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for FORRETRESS, STURDY, STURDY, OVERCOAT
+	abilities_for FORRETRESS, STURDY, BULLETPROOF, OVERCOAT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
